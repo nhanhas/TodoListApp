@@ -1,10 +1,11 @@
 app
 .controller('HomeController', ['$scope', '$location', function($scope, $location) { 
-	$scope.move = false;
+		//side bar variable
+		$scope.move = false;
 
-	$scope.navigate = function (path) {
-		$location.path(path);
-	};
+		$scope.navigate = function (path) {
+			$location.path(path);
+		};
 
 }]);
 
